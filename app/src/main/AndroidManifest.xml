@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.passwordmanagerapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PasswordManagerApp">
+        <activity android:name=".Register"  android:parentActivityName=".LoginScreen"></activity>
+        <activity android:name=".LoginScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".repository"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".MainActivity" android:parentActivityName=".LoginScreen"/>
+
+    </application>
+    <uses-permission android:name="android.permission.INTERNET" />
+
+</manifest>

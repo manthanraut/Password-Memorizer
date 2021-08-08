@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/updateaccid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:background="@drawable/rounded_corner"
+        android:padding="10dp"
+        android:layout_margin="5dp"
+        android:elevation="3dp"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:hint="Account ID"/>
+
+    <EditText
+        android:id="@+id/updateaccpasswd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_margin="5dp"
+        android:elevation="3dp"
+        android:inputType="textPassword"
+        android:background="@drawable/rounded_corner"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:hint="Account Password"/>
+    <EditText
+        android:id="@+id/updateaccdesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:background="@drawable/rounded_corner"
+        android:padding="10dp"
+        android:layout_margin="5dp"
+        android:elevation="3dp"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:hint="Account description"/>
+</LinearLayout>

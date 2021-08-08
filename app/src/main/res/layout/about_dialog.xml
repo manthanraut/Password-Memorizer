@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp"
+        >
+    <TextView
+        android:id="@+id/firstheading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1. Add your account credentials"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/firstpara"
+        android:layout_below="@+id/firstheading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:text="Now, add any account details in this app and store the credentials like account ID, password and give a description to it."
+        android:textAlignment="center"
+        />
+        <TextView
+            android:id="@+id/secondheading"
+            android:layout_below="@+id/firstpara"
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content"
+            android:text="2. Know your saved passwords"
+            android:textSize="25sp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/secondpara"
+            android:layout_below="@+id/secondheading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:text="Whenever you forget your password use this app to recollect your password"
+            android:textAlignment="center"
+            />
+        <TextView
+            android:id="@+id/thirdheading"
+            android:layout_below="@+id/secondpara"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Edit your account credentials"
+            android:textSize="25sp"
+            android:layout_marginTop="20dp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/thirdpara"
+            android:layout_below="@+id/thirdheading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:text="If you've changed your account id or password use this app to edit the already saved account credentials."
+            android:textAlignment="center"
+            />
+    </RelativeLayout>
+
+</ScrollView>
